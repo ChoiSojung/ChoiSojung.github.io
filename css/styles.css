@@ -1,0 +1,271 @@
+/*CSS Styles*/
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body {
+    font-size:100%;
+    font-family:sans-serif, helvetica, arial;
+}
+
+body #wrapper {
+    /*width:940px;*/
+    width: 78%;
+    max-width:1100px;
+    margin:90px auto 20px auto;
+}
+
+header{
+    width: 100%;
+    background: lime;
+    margin: 0 auto;
+
+}
+
+img.facebook {
+    position:fixed;
+    margin-top:300px;
+    right:0;    
+}
+
+img.twitter {
+    position:fixed;
+    margin-top:360px;
+    right:0; 
+}
+
+img.instagram {
+    position:fixed;
+    margin-top:420px;
+    right:0;
+}
+
+img {
+    max-width:100%;
+    display:block;
+}
+
+iframe{
+    margin-top:10px;
+}
+
+main{
+   /* width:560px; 560px divided by 940px*/
+    width:46.17%;
+    clear:both;
+    padding:15px;
+    float:left;
+    background:pink;
+    text-align:center;
+}
+
+aside {
+    width:48.57%;
+    float:right;
+    border:1px solid #666;
+    padding:15px;
+    margin-bottom:20px;
+    background:yellow;
+    text-align:center;
+}
+
+section {
+    height: 50px;
+    line-height:50px;
+    clear:both;
+    margin: 0 475px 20px;
+}
+
+footer{
+    height:50px;
+    line-height:50px;
+    clear:both;
+    border-top:1px dotted #666;
+    background:orange;
+}
+
+footer ul {
+    /*padding-left:20px;*/
+    padding-left:10%;
+    clear:both;
+}
+
+footer li{
+    float:left;
+    list-style-type:none;
+    /*margin-right:30px;*/
+    margin-right: 8%;
+    font-size:.875em;
+    color:#666;
+}
+
+footer a {
+    color:#666;
+}
+
+.valid{
+    clear:both;
+}
+
+
+/*++++++Typography+++++++++*/
+
+a.profile:link {
+    background:skyblue ;
+    outline: skyblue;
+}
+
+p {
+    margin-bottom:20px;
+    line-height:1.5;
+}
+
+p.background {
+    background:#FF9999;
+    color:#fff;
+    padding: 20px;
+    font-size:1.463em;
+    font-family:"Times New Roman", serif;
+    line-height: 1.2;
+    font-style:italic;
+}
+
+aside p{
+    font-size:.875em;
+    color:#666;
+}
+
+h1 {
+    margin-bottom:7px;
+    font-family:"Times New Roman", serif;
+    font-size:2.441em;
+    line-height:1.15;
+    color:#666;
+}
+
+h2 {
+    margin-bottom:7px;
+    font-family:"Times New Roman", serif;
+    font-size:1.953em;
+    line-height:1.15;
+    color:#666;
+}
+
+
+
+.logo {
+    font-family:"orangejuice";
+    color:#666;
+    text-align:center;
+    vertical-align: middle;
+    margin-bottom:15px;
+}
+
+.header {
+    text-decoration:none;
+}
+
+
+h3{
+    margin-bottom:7px;
+    font-family:"Times New Roman", serif;
+    font-size:1.563em;
+    line-height:1.1;
+    color:#666;
+}
+
+h3.aside{
+    font-family:sans-serif;
+    color:#FF9999;
+    
+}
+
+h4 {
+    padding-bottom:5px;
+    color:#FF9999;
+    font-size:1.12em;
+    font-size:1em;
+    font-style:italic;
+    
+}
+
+p.valid{
+    width:50px;
+    margin:0 auto 20px auto;
+}
+
+iframe {
+    width:auto;
+    border="0";
+    
+}
+
+#myBtn {
+    display: inline-block;
+    position: fixed; /* Fixed/sticky position */
+    text-align:center;
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+
+
+
+@media screen and (max-width:800px) {
+        body.home #wrapper {
+        /*width:940px;*/
+        width: 95%;    
+    }
+
+    
+    
+    main{
+        /* width:560px; 560px divided by 940px*/   
+        width:56.57%;
+    }
+
+    aside {
+        /*width:340px;*/
+        width:39.17%;
+    }
+}
+
+@media screen and (max-width:700px){
+    main{
+        /* width:560px; 560px divided by 940px*/   
+        width:auto;
+        float:none;
+        
+    }
+
+    aside {
+        /*width:340px;*/
+        width:auto;
+        float:none;
+        border:none;
+    }
+    
+    aside img {
+        display:block;
+    }
+    
+}
+
+/*++++++Typography+++++++++*/   
+@font-face{
+    font-family:"orangejuice";
+    src:url("orangejuice.ttf");
+}
