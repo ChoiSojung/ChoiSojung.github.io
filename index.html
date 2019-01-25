@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="zxx">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sojung Choi</title>
+<title>SC</title>
 
 <!--Remy Sharp Shim --> 
 <!--[if lte IE 9]> 
@@ -11,54 +11,93 @@
 </script> 
 <![endif]-->
 <link href="css/styles.css" type= "text/css" rel="stylesheet">
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+<script>
+    
+    window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+    
+    
+    </script>    
 </head>
 
 <body class = "home">
     
+    <header>
+        
+        
+        
+        <nav id="primary">
+        <ul>
+            <li><a href="contact.html">contact</a></li>
+        <li><a target = "blank" href="https://github.com/choisojung">github</a></li>
+        <li><a target = "blank" href="https://www.linkedin.com/in/sojungc/">linkedin</a></li>
+        <li><a href="index.html">about</a></li>
+        </ul>
+        </nav>
+        
+        
+        
+        </header>
     
     
     <div id="wrapper">
-        
-        <header>
-        <a href = "https://facebook.com/choi.soj"><img class = "facebook" src = "images/facebook.png" alt="facebook"></a>
-        <a href="https://twitter.com/sojuface"><img class = "twitter" src = "images/twitter.png" alt="twitter"></a>
-        <a href = "https://instagram.com/sojuface"><img class = "instagram" src = "images/instagram.png" alt="instagram"></a>
-        <a class = "header" href = "index.html"><h2 class="logo">Sojung Choi</h2></a>
-        </header>
-        
-        <main> 
-        <h1>Welcome to my website!</h1>
-            <p>Click on my <a class = "profile" href = "https://www.linkedin.com/in/sojungc" target = "_blank">LinkedIn Profile</a> to see my complete work history. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin malesuada ac lectus quis fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tempus tristique eleifend. Quisque at condimentum urna. Curabitur dignissim rutrum purus, non venenatis nulla facilisis eu. Sed magna diam, suscipit non ante sit amet, semper condimentum turpis. Etiam vitae porta lacus.</p>
-        <h2>Subheadline!</h2>     
-             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin malesuada ac lectus quis fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tempus tristique eleifend. Quisque at condimentum urna. Curabitur dignissim rutrum purus, non venenatis nulla facilisis eu. Sed magna diam, suscipit non ante sit amet, semper condimentum turpis. Etiam vitae porta lacus.  Etiam vitae porta lacus. Etiam dictum, nunc vitae venenatis efficitur, erat dui ultricies sem, non facilisis mi erat eu urna. Sed maximus et lectus maximus mollis. Suspendisse ac mi eget turpis porta sagittis ac vitae arcu. In aliquet lacus non imperdiet pharetra. Aliquam ut vestibulum justo, et ultricies diam. Sed ac quam luctus, mollis est sit amet, porttitor felis. Nullam convallis vestibulum erat, non blandit diam euismod sit amet.Nullam convallis vestibulum erat, non blandit diam euismod sit amet.</p>
-            <p id="date"></p>   
-        </main>
+    
+
+        <!--<main> 
+        <span>
             
+             
+            <a class = "header" href = "index.html"><h1 class="logo">Sojung Choi</h1></a>
+            <a href= "https://www.linkedin.com/in/sojung-choi-1264a634/"><img src = "images/linkedin.png" alt="linkedin"></a>
+            <a href="mailto:sojc31@gmail.com"><img src = "images/gmail.png" alt="gmail"></a>
+           
+            
+        </span>
+        
+        </main>-->
+        
         <aside>
-        <h3>Aside!</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin malesuada ac lectus quis fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tempus tristique eleifend. Quisque at condimentum urna. Curabitur dignissim rutrum purus, non venenatis nulla facilisis eu. Sed magna diam, suscipit non ante sit amet, semper condimentum turpis.</p> 
-            <img src = "images/profile.png" alt="profile"</>  
-        </aside> 
-        
-        <section>
-            <button id="button" onclick="dateStamp()">Click Me!</button>
+        <h2>I'm Sojung.</h2>
+            <p>Software developer with 3+ years of well-rounded experience in object-oriented and user-centered design. </p>
+
+<p>Technical skills include Java and MySQL. I have experience with HTML5, CSS, Javascript, PHP based on projects involving data structures, database technology, and web application development.  My interests/curiosities include Python and R.</p>
             
-        </section>
+            <p>On my free time I enjoy hosting dinner parties, as well as taking my pup Benji on hikes into the mountains.</p>
+        <p> I hope to developing applications for a company that promotes and celebrates diversity in technology.</p> 
+            
+            
+        </aside>
+            
+            
         
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
         <footer>
             <ul>
-                <li>Copyright 2019 &copy;</li>
+                <li>Copyright 2018 &copy;</li>
                 <li>All Rights Reserved</li>
-                <li><a href="../index.html">Sojung's Page</a></li>
+                
+            
             </ul>
-        </footer>
         
+        </footer>
     </div>    <!--end wrapper-->
-    
-    <p class = "valid"><a href = "https://validator.w3.org/check?uri=referer"><img src = "images/html5.png" alt = "HTML5 logo"></a></p>
-    
-   <script src = "myScript.js"></script>
+        
 </body>
     
     
